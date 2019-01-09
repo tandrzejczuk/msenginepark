@@ -1,3 +1,15 @@
+/* 
+Reset
+Style globalne
+Typografia
+Komponenty
+Style głównych sekcji
+Stopka
+ */
+
+
+/* Reset stylów */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,3 +75,76 @@ references
 gallery
 contact
  */
+
+
+ /* Style globalne */
+
+body {
+background-color: #f0f0f0;
+color: #000000;
+font-family: 'Rubik', "Open Sans", sans-serif;
+font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	text-align: center;
+	padding: 0 10%;
+}
+
+/* Skalowanie obrazków - bez obcinania, 
+zawsze będą miały 100% obrazu */
+img {
+	max-width: 100%;
+}
+
+
+/* Typografia */
+
+p {
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+@media screen and (min-width: 1024px) {
+	p {
+		font-size: 18px;
+	}
+}
+
+
+/* Komponenty, np. buttony, nagłówki (h1, h2...) */
+
+.section-header {
+	padding: 40px 0;
+	font-size: 24px;
+	color: #0033cc;
+}
+
+
+/* Nagłówek */
+
+header {
+	text-align: center;
+}
+
+.logo {
+	background-color: #ffffff;
+	padding: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.logo {
+	padding: 20px 0;
+}
+
+}
+/* selektor img w klasie logo - kombinowany;
+jak jest tylko jeden w tej klasie, to nie ma problemy */
+.logo img {
+	max-width: 20%;
+}
