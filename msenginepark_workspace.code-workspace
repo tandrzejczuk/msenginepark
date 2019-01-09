@@ -9,5 +9,8 @@
 		{
 			"path": "msenginepark\\style"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "msenginepark"
+	}
 }
