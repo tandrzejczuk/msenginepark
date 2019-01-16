@@ -82,7 +82,7 @@ contact
 body {
 background-color: #f0f0f0;
 color: #000000;
-font-family: 'Rubik', "Open Sans", sans-serif;
+font-family: 'Rubik', 'Open Sans', sans-serif;
 font-weight: 300;
 }
 
@@ -120,7 +120,7 @@ p {
 
 .section-header {
 	padding: 40px 0;
-	font-size: 24px;
+	font-size: 50px;
 	color: #0033cc;
 }
 
@@ -147,4 +147,147 @@ header {
 jak jest tylko jeden w tej klasie, to nie ma problemy */
 .logo img {
 	max-width: 20%;
+}
+
+.top {
+	padding: 50px 0 30px;
+	color: #ffffff;
+	font-family: 'Source Serif Pro', serif;
+	background: url('/img/header_photo_small.jpg') 0 0; /* rozpocznie się w lewym, górnym rogu */
+	background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+	.top {
+		padding: 160px 0 100px;
+		background: url('/img/header_photo_big.jpg') 0 0;
+		background-size: cover;
+	}
+}
+
+.top h1 {
+	margin: 8px;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.top h1 {
+		margin-bottom: 20px;
+		font-size: 100px;
+	}
+}
+
+.top a {
+	display: inline-block;
+	margin: 10px 0 0;
+	padding: 10px 14px;
+	color: #ffffff;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	
+}
+
+@media screen and (min-width: 1024px) {
+	.top a {
+		margin: 60px 0 0;
+		padding: 20px 30px;
+		font-size: 26px;		
+	}
+}
+
+.top a:hover {
+	background-color: #ffffff;
+	color: #0033cc;
+}
+
+.main-menu {
+	background-color: #f0f0f0;
+	box-shadow: 1px 1px 0 #ffffff;
+}
+
+.main-menu li {
+	padding: 15px 0;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+	.main-menu li {
+		padding: 30px;
+		display: inline-block;
+	}
+}
+
+.main-menu a {
+	color: #000000;
+}
+
+@media screen and (min-width: 1024px) {
+	.main-menu a {
+		font-size: 20px;
+	}
+}
+
+
+/* Style głównych sekcji */
+
+.about-us h1 {
+	margin: 40px 0;
+	font-size: 30px;
+}
+
+
+.about-us h1 {
+	margin: 20px 0;
+	font-size: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.about-us h1 {
+		margin: 40px 0;
+		font-size: 50px;
+	
+	}
+}
+
+.gallery_image_no_mobile {
+	display: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.gallery_image_no_mobile {
+		display: inline-block;
+}
+
+.experience {
+	padding: 0px 10% 30px;
+}
+
+@media screen and (min-width: 1024px) {
+	.experience {
+		padding: 10px 0 40px;
+}
+
+
+/*  Stopka */
+
+.footer {
+	padding: 20px 0;
+	font-size: 12px;
+	text-align: center;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+	.footer {
+		padding: 40px 0;
+		font-size: 20px;
+	}
 }
